@@ -8,7 +8,7 @@
 Оптимальным называется выравнивание с максимальным счётом, наибольшим числом соответствий и наименьшим количеством gap'ов.
 ### ICR1
 Алгоритм Needle
-https://github.com/grilld9/bioinformatics/blob/4f8ba01e91ad663e1d932331dad859e1f464b038/lab1/ICR1/needle.txt#L0-L5
+https://github.com/grilld9/bioinformatics/blob/4f8ba01e91ad663e1d932331dad859e1f464b038/lab1/ICR1/needle.txt
 
 Алгоритм Water
 https://github.com/grilld9/bioinformatics/blob/main/lab1/ICR1/water.txt
@@ -18,7 +18,7 @@ https://github.com/grilld9/bioinformatics/blob/main/lab1/ICR1/water.txt
 ### KCNQ1OT1
 
 Алгоритм Needle
-https://github.com/grilld9/bioinformatics/blob/main/lab1/KCNQ1OT1/needle.txt#L0-L5
+https://github.com/grilld9/bioinformatics/blob/main/lab1/KCNQ1OT1/needle.txt
 
 Алгоритм Water
 https://github.com/grilld9/bioinformatics/blob/main/lab1/KCNQ1OT1/water.txt
