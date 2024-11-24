@@ -1,0 +1,135 @@
+2024-11-03 21:03:03.460 Workflow starting (run-id 1730642583458876):
+2024-11-03 21:03:03.466 [1730642583458876/start/1 (pid 135275)] Task is starting.
+2024-11-03 21:03:03.645 [1730642583458876/start/1 (pid 135275)] Task finished successfully.
+2024-11-03 21:03:03.649 [1730642583458876/fastqc/2 (pid 135279)] Task is starting.
+2024-11-03 21:03:03.652 [1730642583458876/minimap2/3 (pid 135280)] Task is starting.
+2024-11-03 21:03:03.845 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] Pack FASTA... 0.02 sec
+2024-11-03 21:03:04.059 [1730642583458876/fastqc/2 (pid 135279)] null
+2024-11-03 21:03:04.085 [1730642583458876/fastqc/2 (pid 135279)] Started analysis of ecoli.fastq
+2024-11-03 21:03:04.409 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] Construct BWT for the packed sequence...
+2024-11-03 21:03:04.409 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] 0.55 seconds elapse.
+2024-11-03 21:03:04.428 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] Update BWT... 0.01 sec
+2024-11-03 21:03:04.446 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] Pack forward-only FASTA... 0.01 sec
+2024-11-03 21:03:04.567 [1730642583458876/fastqc/2 (pid 135279)] Approx 5% complete for ecoli.fastq
+2024-11-03 21:03:04.711 [1730642583458876/minimap2/3 (pid 135280)] [minimap2_index] Construct SA from BWT and Occ... 0.27 sec
+2024-11-03 21:03:04.714 [1730642583458876/minimap2/3 (pid 135280)] [main] Version: 0.7.17-r1188
+2024-11-03 21:03:04.714 [1730642583458876/minimap2/3 (pid 135280)] [main] CMD: minimap2 index -p ./output/ecoli.fna ecoli.fna
+2024-11-03 21:03:04.714 [1730642583458876/minimap2/3 (pid 135280)] [main] Real time: 0.908 sec; CPU: 0.864 sec
+2024-11-03 21:03:04.714 [1730642583458876/minimap2/3 (pid 135280)] [M::minimap2_idx_load_from_disk] read 0 ALT contigs
+2024-11-03 21:03:04.748 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:04.783 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:04.936 [1730642583458876/fastqc/2 (pid 135279)] Approx 10% complete for ecoli.fastq
+2024-11-03 21:03:05.276 [1730642583458876/fastqc/2 (pid 135279)] Approx 15% complete for ecoli.fastq
+2024-11-03 21:03:05.608 [1730642583458876/fastqc/2 (pid 135279)] Approx 20% complete for ecoli.fastq
+2024-11-03 21:03:05.945 [1730642583458876/fastqc/2 (pid 135279)] Approx 25% complete for ecoli.fastq
+2024-11-03 21:03:06.281 [1730642583458876/fastqc/2 (pid 135279)] Approx 30% complete for ecoli.fastq
+2024-11-03 21:03:06.633 [1730642583458876/fastqc/2 (pid 135279)] Approx 35% complete for ecoli.fastq
+2024-11-03 21:03:06.965 [1730642583458876/fastqc/2 (pid 135279)] Approx 40% complete for ecoli.fastq
+2024-11-03 21:03:07.295 [1730642583458876/fastqc/2 (pid 135279)] Approx 45% complete for ecoli.fastq
+2024-11-03 21:03:07.619 [1730642583458876/fastqc/2 (pid 135279)] Approx 50% complete for ecoli.fastq
+2024-11-03 21:03:07.756 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.101 CPU sec, 3.007 real sec
+2024-11-03 21:03:07.817 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:07.937 [1730642583458876/fastqc/2 (pid 135279)] Approx 55% complete for ecoli.fastq
+2024-11-03 21:03:08.247 [1730642583458876/fastqc/2 (pid 135279)] Approx 60% complete for ecoli.fastq
+2024-11-03 21:03:08.558 [1730642583458876/fastqc/2 (pid 135279)] Approx 65% complete for ecoli.fastq
+2024-11-03 21:03:08.869 [1730642583458876/fastqc/2 (pid 135279)] Approx 70% complete for ecoli.fastq
+2024-11-03 21:03:09.188 [1730642583458876/fastqc/2 (pid 135279)] Approx 75% complete for ecoli.fastq
+2024-11-03 21:03:10.340 [1730642583458876/fastqc/2 (pid 135279)] Approx 80% complete for ecoli.fastq
+2024-11-03 21:03:10.659 [1730642583458876/fastqc/2 (pid 135279)] Approx 85% complete for ecoli.fastq
+2024-11-03 21:03:10.985 [1730642583458876/fastqc/2 (pid 135279)] Approx 90% complete for ecoli.fastq
+2024-11-03 21:03:11.339 [1730642583458876/fastqc/2 (pid 135279)] Approx 95% complete for ecoli.fastq
+2024-11-03 21:03:11.576 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.049 CPU sec, 3.821 real sec
+2024-11-03 21:03:11.641 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:11.725 [1730642583458876/fastqc/2 (pid 135279)] Analysis complete for ecoli.fastq
+2024-11-03 21:03:12.934 [1730642583458876/fastqc/2 (pid 135279)] mv: cannot stat './output/*_fastqc.html': No such file or directory
+2024-11-03 21:03:12.961 [1730642583458876/fastqc/2 (pid 135279)] Task finished successfully.
+2024-11-03 21:03:14.600 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.023 CPU sec, 3.023 real sec
+2024-11-03 21:03:14.656 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:17.132 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.642 CPU sec, 2.532 real sec
+2024-11-03 21:03:17.194 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:19.908 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.982 CPU sec, 2.776 real sec
+2024-11-03 21:03:19.958 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:22.618 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.051 CPU sec, 2.711 real sec
+2024-11-03 21:03:22.670 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:25.208 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.810 CPU sec, 2.590 real sec
+2024-11-03 21:03:25.271 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:28.091 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.030 CPU sec, 2.882 real sec
+2024-11-03 21:03:28.147 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:30.781 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.861 CPU sec, 2.690 real sec
+2024-11-03 21:03:30.837 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:33.486 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.886 CPU sec, 2.705 real sec
+2024-11-03 21:03:33.540 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:36.275 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.899 CPU sec, 2.789 real sec
+2024-11-03 21:03:36.334 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:39.213 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.970 CPU sec, 2.939 real sec
+2024-11-03 21:03:39.283 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:42.071 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.908 CPU sec, 2.858 real sec
+2024-11-03 21:03:42.128 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:45.044 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.033 CPU sec, 2.973 real sec
+2024-11-03 21:03:45.102 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:47.494 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.508 CPU sec, 2.450 real sec
+2024-11-03 21:03:47.549 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:50.086 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.637 CPU sec, 2.592 real sec
+2024-11-03 21:03:50.147 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:53.260 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.162 CPU sec, 3.174 real sec
+2024-11-03 21:03:53.319 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:56.232 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.946 CPU sec, 2.972 real sec
+2024-11-03 21:03:56.290 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:03:59.135 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.995 CPU sec, 2.903 real sec
+2024-11-03 21:03:59.213 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:02.517 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.182 CPU sec, 3.382 real sec
+2024-11-03 21:04:02.580 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:05.245 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.749 CPU sec, 2.729 real sec
+2024-11-03 21:04:05.304 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:08.136 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.937 CPU sec, 2.890 real sec
+2024-11-03 21:04:08.193 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:10.924 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.840 CPU sec, 2.789 real sec
+2024-11-03 21:04:10.981 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:13.985 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.102 CPU sec, 3.060 real sec
+2024-11-03 21:04:14.042 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:16.909 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.970 CPU sec, 2.924 real sec
+2024-11-03 21:04:16.966 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:20.274 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.759 CPU sec, 3.365 real sec
+2024-11-03 21:04:20.330 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:23.127 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 2.901 CPU sec, 2.852 real sec
+2024-11-03 21:04:23.184 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:26.139 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.057 CPU sec, 3.012 real sec
+2024-11-03 21:04:26.196 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:29.115 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.021 CPU sec, 2.976 real sec
+2024-11-03 21:04:29.172 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:32.086 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.025 CPU sec, 2.971 real sec
+2024-11-03 21:04:32.145 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:35.147 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.117 CPU sec, 3.061 real sec
+2024-11-03 21:04:35.204 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:38.274 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.183 CPU sec, 3.127 real sec
+2024-11-03 21:04:38.329 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 66226 sequences (10000126 bp)...
+2024-11-03 21:04:41.559 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.481 CPU sec, 3.285 real sec
+2024-11-03 21:04:41.597 [1730642583458876/minimap2/3 (pid 135280)] [M::process] read 13766 sequences (2078666 bp)...
+2024-11-03 21:04:44.482 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 66226 reads in 3.217 CPU sec, 2.923 real sec
+2024-11-03 21:04:45.161 [1730642583458876/minimap2/3 (pid 135280)] [M::mem_process_seqs] Processed 13766 reads in 0.741 CPU sec, 0.679 real sec
+2024-11-03 21:04:45.474 [1730642583458876/minimap2/3 (pid 135280)] [main] Version: 0.7.17-r1188
+2024-11-03 21:04:45.502 [1730642583458876/minimap2/3 (pid 135280)] [main] CMD: minimap2 mem ./output/ecoli.fna ecoli.fastq
+2024-11-03 21:04:45.502 [1730642583458876/minimap2/3 (pid 135280)] [main] Real time: 100.762 sec; CPU: 101.852 sec
+2024-11-03 21:04:45.503 [1730642583458876/minimap2/3 (pid 135280)] Task finished successfully.
+2024-11-03 21:04:45.506 [1730642583458876/samtools_view/4 (pid 135383)] Task is starting.
+2024-11-03 21:04:54.345 [1730642583458876/samtools_view/4 (pid 135383)] Task finished successfully.
+2024-11-03 21:04:54.348 [1730642583458876/samtools_flagstat/5 (pid 135386)] Task is starting.
+2024-11-03 21:04:54.986 [1730642583458876/samtools_flagstat/5 (pid 135386)] Task finished successfully.
+2024-11-03 21:04:54.989 [1730642583458876/parse_flagstat/6 (pid 135389)] Task is starting.
+2024-11-03 21:04:55.153 [1730642583458876/parse_flagstat/6 (pid 135389)] Task finished successfully.
+2024-11-03 21:04:55.156 [1730642583458876/ok_result/7 (pid 135391)] Task is starting.
+2024-11-03 21:04:55.159 [1730642583458876/bad_result/8 (pid 135392)] Task is starting.
+2024-11-03 21:04:55.307 [1730642583458876/bad_result/8 (pid 135392)] BAD RESULT 81.33
+2024-11-03 21:04:55.328 [1730642583458876/ok_result/7 (pid 135391)] Task finished successfully.
+2024-11-03 21:04:55.332 [1730642583458876/samtools_sort/9 (pid 135395)] Task is starting.
+2024-11-03 21:04:55.332 [1730642583458876/bad_result/8 (pid 135392)] Task finished successfully.
+2024-11-03 21:04:55.495 [1730642583458876/samtools_sort/9 (pid 135395)] Task finished successfully.
+2024-11-03 21:04:55.498 [1730642583458876/freebayes/10 (pid 135397)] Task is starting.
+2024-11-03 21:04:55.663 [1730642583458876/freebayes/10 (pid 135397)] Task finished successfully.
+2024-11-03 21:04:55.665 [1730642583458876/join_freebayes/11 (pid 135399)] Task is starting.
+2024-11-03 21:04:55.834 [1730642583458876/join_freebayes/11 (pid 135399)] Task finished successfully.
+2024-11-03 21:04:55.837 [1730642583458876/join_fastqc/12 (pid 135401)] Task is starting.
+2024-11-03 21:04:56.004 [1730642583458876/join_fastqc/12 (pid 135401)] Task finished successfully.
+2024-11-03 21:04:56.007 [1730642583458876/end/13 (pid 135403)] Task is starting.
+2024-11-03 21:04:56.173 [1730642583458876/end/13 (pid 135403)] Task finished successfully.
+2024-11-03 21:04:56.173 Done!
